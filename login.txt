@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOG IN PAGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h2 class="bb">WELCOME TO OUR PAGE</h2>
+    <h5 class="cc">LOG IN </h5>
+    <form action="sucess.html">
+    <table id="ea">
+    <tbody>
+ 
+    <tr>
+    <td>
+        <label for="email">Email:</label></td> <td>
+  <input type="email" id="email" name="email"
+  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+   
+    </td>
+    </tr>
+ 
+    <tr>
+    <td id="re">
+    <label for="password">Password:</label>
+        </td><td>
+  <input type="password" id="pwd" name="pwd"
+  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+  title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+    </td>
+    </tr><tr> <td>
+    
+        <a href="sucess.html">
+            <button class="btn btn-primary btn-lg">Log in</button>
+      </a>
+    
+
+</td>
+
+<td>
+<a target="_blank" href="sign up.html" > Sign Up </a>
+</td></tr>
+</tbody>
+</table>
+    </form>
+</body>
+</html> 
+

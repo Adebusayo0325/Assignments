@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+  margin: 0;
+    padding:0px;
+    background-color: rgb(9, 9, 41);
+  
+
+
+}
+
+#ea{
+  margin: auto;
+  padding:40px 50px;
+  color: white;
+  border-color: yellow;
+  border-width: 5px;
+
+}
+.bb{
+  margin: auto;
+  padding: 10px 300px;
+  color: orangered;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+.cc{
+  
+ margin: auto;
+padding: 90px 300px;
+text-underline-position: below;
+color: yellow;
+}
+button{
+  color: orangered;
+  background-color: yellow;
+ text-decoration: none;
+  
+ border-radius: 5px;
+ padding: 7px;
+ font-size: medium;
+ margin: 10px;
+
+
+}
+a{
+  color: orangered;
+  
+ 
+}
+#ty{
+  color: orangered;
+  text-decoration: none;
+ background-color: yellow;
+}
+#re{
+   padding: 15px;
+ font-size: medium;
+ margin: 10px;
+  color: white;
+
+}
+#ui{
+  margin: auto;
+  padding:200px 500px;
+  color: yellow;
+}
+#hg{
+  margin:auto;
+  padding: 1px 500px;
+}
+#tr{
+    margin:auto;
+  padding: 1px 500px;
+  font-size: 15px;
+  color:white;
+ 
+}
+.er{
+    padding: 100px;
+ font-size: medium;
+ margin: 10px;
+color: white;
+  background-color: white;
+}
+.tw{
+  padding: 16px;
+  font-size: medium;
+  margin: 10px;
+  color: yellow;
+  background-color:white;
+}
+  

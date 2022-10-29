@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="bb">WELCOME TO OUR PAGE</h2>
+    <h3 class="cc">Sign Up form</h3>
+<form  action="index.html">
+    <table id="ea">
+    <tbody>
+    <tr class="er">
+    <td>
+        <label  for ="fname">FIRST NAME :</label> </td>
+        <td><input type ="text" name ="fname" maxlength="12" minlength="3" id ="fname" required placeholder="ENTER YOUR FIRST NAME">
+        </td>
+        </tr>
+    <tr class="er">
+    <td>
+        <label for ="lname">LAST NAME :</label></td>
+       <td> <input type ="text" name ="lname" maxlength="12" minlength="3" id ="lname" required placeholder="ENTER YOUR LAST NAME">
+       </td>
+       </tr>
+    <tr class="er">
+    <td>
+        <label for ="EMAIL">EMAIL :</label></td>
+        <td>
+        <input type ="text" name ="EMAIL"  id ="EMAIL" placeholder="ENTER EMAIL ADDRESS">
+   
+    </td>
+    </tr>
+    
+<tr class="er">
+    <td>
+        <label for ="PNUMBER">PHONE NUMBER :</label>
+      </td> <td>  <input type ="number" name ="PNUMBER" maxlength="12" minlength="3"  id ="PNUMBER" pattern="[0] {1}  [0-9] {1} [0-1] {1} [0-9] {8}" required placeholder="+234-70-38-430-280">
+    </td>
+    </tr>
+    <tr class="er">
+    <td>
+        <label for="dob">DATE OF BIRTH</label></td>
+        <td>
+
+        <INPUT type="date" name="dob" class="tw" required >
+    </td>
+    
+   </tr> <tr class="er"> <td> <label for="gender" > Gender: </label> </td> </tr> <tr> <td>
+   <input type="radio" name="gender" id="male" value="male" >
+        <label for="male"> Male </label>
+          <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female </label>
+      
+      </td></tr>
+    <tr class="er">
+    <td><label for="favcolor">Select your favorite color:</label></td><td>
+  <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br></td>
+    </tr>
+    <tr class="er">
+    <td>
+        <label for="password">Password:</label>
+        </td><td>
+  <input type="password" id="pwd" name="pwd" placeholder="Enter your password"
+  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+  title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters">
+    </td>
+    </tr>
+    <tr class="er"> <td>
+    <label for="password">Confirm your password:</label>
+        </td><td>
+  <input type="password" id="pwd" name="pwd"
+  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+  title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"placeholder="Confirm your password">
+  </td> </td>
+    <tr class="er">
+    <td>
+        <tr class="er">
+  <td>
+
+<div>
+    <p>Whats your favorite language</p>
+    <input type="radio" name="lang" id="">
+    <label for ="css">CSS</label>
+     <input type="radio" name="lang" id="">
+    <label for ="html">HTML</label>
+    <input type="radio" name="lang" id="">
+    <label for ="Javascript" >JAVASCRIPT</label>
+    
+ </td>
+    </tr><tr class="er">
+    <td>
+
+    
+</div> 
+<div>
+            <a href="index.html">
+            <button class="btn btn-primary btn-lg">Submit</button>
+            </a>
+</div>
+ </td>
+    </tr>
+
+</tbody>
+</table>
+    </form>
+</body>
+</html> 
