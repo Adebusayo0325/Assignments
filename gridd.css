@@ -2,10 +2,79 @@
     margin:0;
     padding:0;
 }
+@media screen and (max-width: 1440px) and (min-width:375px){
 body{
     background-color: rgba(209, 201, 201, 0.914);
    
    display: flex;
+   place-items: center;
+min-height: 100vh;
+}
+  main{
+
+   display: grid;
+
+    grid-template-areas: 
+    
+    'a a b'
+    'a a b'
+    
+    'c d d'
+    'c e e';
+   gap: 10px;
+   width: 70%;
+    
+   margin: auto;
+   background-color: hsl(223, 53%, 16%)
+;
+ padding: 20px 60px 30px 30px;
+    }
+
+main div{
+     padding: 2em;
+     text-align: center;
+    
+}
+.et{
+   
+    color: white;
+    background-color: rgb(249, 100, 7);
+grid-area: a;
+padding: 40px;
+
+}
+.ft{
+  
+    color: white;
+    background-color: rgb(253, 158, 15);
+    grid-area: b;
+    
+}
+.gt{
+    
+    color: white;
+    background-color: rgb(92, 201, 75);
+    grid-area: c;
+}
+.ht{
+   
+    color: white;
+    background-color: rgb(25, 155, 230);
+    grid-area: d;
+}
+.it{
+     
+    color: white;
+    background-color: rgb(25, 155, 230);
+    grid-area: e;
+      }
+}
+@media screen and (max-width:375px) and (min-width:200px){
+body{
+    background-color: rgba(209, 201, 201, 0.914);
+   
+   display: flex;
+  flex-direction:row;
    place-items: center;
 min-height: 100vh;
 }
@@ -21,7 +90,7 @@ main{
     'c d d'
     'c e e';
    gap: 10px;
-   width: 30%;
+   width: 70%;
    margin: auto;
    background-color: hsl(223, 53%, 16%)
 ;
