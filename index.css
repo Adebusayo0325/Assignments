@@ -8,6 +8,9 @@ body{
  font-size: 15px;
     
 }
+
+@media screen and (max-width: 1440px) and (min-width: 375px){
+
 main{
     
     width:50%;
@@ -18,12 +21,24 @@ main{
     flex-direction: row;
     margin: auto;
  
+}
+
+  .mr{
+
+
+    display: flex;
+    justify-content: left;
+    
+    flex-direction: row;
+    margin: auto;
+    padding: 20px;
+    
 
 }
-.tr{
+  .tr{
     background-color:  hsl(31, 77%, 52%);
     padding: 2em;
-    width: 100%;
+    width: 33%;
       color: white;
 
     
@@ -32,46 +47,100 @@ main{
 .gr{
     background-color:  hsl(184, 100%, 22%);
     padding: 2em;
-    width: 100%;
+    width: 34%;
       color: white;
 
 }
 .fr{
     background-color:  hsl(179, 100%, 13%);
     padding: 2em;
-    width: 100%;
+    width: 33%;
       color: white;
 
 }
+.gm{
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: hsla(0 0%, 100%, 0.75);
+}
+#ko{
+    
+ background-color:   hsl(179, 100%, 13%);
+ 
+
+ 
+border-radius: 20px;
+border-color: hsl(0, 0%, 95%);
+
+padding-bottom: 10px;
+
+color: hsl(0, 0%, 95%);
+padding-top: 10px;
+width: 70%;
+text-align: center;
+border-width: 2px;
+
+
+}
+#ty{
+    
+ background-color:   hsl(31, 77%, 52%);
+ 
+border-radius: 20px;
+border-color: hsl(0, 0%, 95%);
+
+padding-bottom: 10px;
+
+color: hsl(0, 0%, 95%);
+padding-top: 10px;
+width: 70%;
+text-align: center;
+border-width: 2px;
+
+
+}
+#ok{
+    
+
+ background-color:  hsl(184, 100%, 22%);
+    
+
+ 
+border-radius: 20px;
+border-color: hsl(0, 0%, 95%);
+
+padding-bottom: 10px;
+
+color: hsl(0, 0%, 95%);
+padding-top: 10px;
+width: 70%;
+text-align: center;
+border-width: 2px;
+
+
+
+}
+h2{
+    padding: 20px 30px 20px 5px;
+  color:   hsl(0, 0%, 95%);
+}
+
+
+}
 @media screen and (max-width: 375px) and (min-width: 200px){
-  .mr{
-
-
-    display: flex;
-    justify-content: left;
+main{
     
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     flex-direction: column;
     margin: auto;
-    padding: 20px;
-    background-color: hsl(0, 0%, 95%);
+ 
 
-}
-}
-@media screen and (max-width: 1440px) and (min-width: 375px){
+  }
   .mr{
-
-
-    display: flex;
-    justify-content: left;
-    
-    flex-direction: column;
-    margin: auto;
-    padding: 20px;
-    
-
-}
-}
-.mr{
 
 
     display: flex;
@@ -79,10 +148,282 @@ main{
     
     flex-direction: row;
     margin: auto;
+    padding: 10px;
+    background-color: hsl(0, 0%, 95%);
+
+  }
+  .tr{
+    background-color:  hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 33%;
+      color: white;
+
+    
+    
+}
+.gr{
+    background-color:  hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 34%;
+      color: white;
+
+}
+.fr{
+    background-color:  hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 33%;
+      color: white;
+
+}
+  .gm{
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+#ko{
+    
+ background-color:   hsl(179, 100%, 13%);
+ 
+
+ 
+border-radius: 20px;
+border-color: hsl(0, 0%, 95%);
+
+padding-bottom: 10px;
+
+color: hsl(0, 0%, 95%);
+padding-top: 10px;
+width: 70%;
+text-align: center;
+border-width: 2px;
+
+
+}
+#ty{
+    
+ background-color:   hsl(31, 77%, 52%);
+ 
+border-radius: 20px;
+border-color: hsl(0, 0%, 95%);
+
+padding-bottom: 10px;
+
+color: hsl(0, 0%, 95%);
+padding-top: 10px;
+width: 70%;
+text-align: center;
+border-width: 2px;
+
+
+}
+#ok{
+    
+
+ background-color:  hsl(184, 100%, 22%);
+    
+
+ 
+border-radius: 20px;
+border-color: hsl(0, 0%, 95%);
+
+padding-bottom: 10px;
+
+color: hsl(0, 0%, 95%);
+padding-top: 10px;
+width: 70%;
+text-align: center;
+border-width: 2px;
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+ font-size: 15px;
+    
+}
+/*main{
+    
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+    margin: auto;
+ 
+
+}*/
+@media screen and (max-width: 1440px) and (min-width: 375px){
+
+main{
+    
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+    margin: auto;
+ 
+}
+
+  .mr{
+
+
+    display: flex;
+    justify-content: left;
+    
+    flex-direction: row;
+    margin: auto;
     padding: 20px;
+    
+
+}
+  .tr{
+    background-color:  hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 33%;
+      color: white;
+
+    
+    
+}
+.gr{
+    background-color:  hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 34%;
+      color: white;
+
+}
+.fr{
+    background-color:  hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 33%;
+      color: white;
 
 }
 .gm{
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: hsla(0 0%, 100%, 0.75);
+}
+#ko{
+    
+ background-color:   hsl(179, 100%, 13%);
+ 
+
+ 
+border-radius: 20px;
+border-color: hsl(0, 0%, 95%);
+
+padding-bottom: 10px;
+
+color: hsl(0, 0%, 95%);
+padding-top: 10px;
+width: 70%;
+text-align: center;
+border-width: 2px;
+
+
+}
+#ty{
+    
+ background-color:   hsl(31, 77%, 52%);
+ 
+border-radius: 20px;
+border-color: hsl(0, 0%, 95%);
+
+padding-bottom: 10px;
+
+color: hsl(0, 0%, 95%);
+padding-top: 10px;
+width: 70%;
+text-align: center;
+border-width: 2px;
+
+
+}
+#ok{
+    
+
+ background-color:  hsl(184, 100%, 22%);
+    
+
+ 
+border-radius: 20px;
+border-color: hsl(0, 0%, 95%);
+
+padding-bottom: 10px;
+
+color: hsl(0, 0%, 95%);
+padding-top: 10px;
+width: 70%;
+text-align: center;
+border-width: 2px;
+
+
+
+}
+h2{
+    padding: 20px 30px 20px 5px;
+  color:   hsl(0, 0%, 95%);
+}
+
+
+}
+@media screen and (max-width: 375px) and (min-width: 200px){
+main{
+    
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin: auto;
+ 
+
+  }
+  .mr{
+
+
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: row;
+    margin: auto;
+    padding: 10px;
+    background-color: hsl(0, 0%, 95%);
+
+  }
+  .tr{
+    background-color:  hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 33%;
+      color: white;
+
+    
+    
+}
+.gr{
+    background-color:  hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 34%;
+      color: white;
+
+}
+.fr{
+    background-color:  hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 33%;
+      color: white;
+
+}
+  .gm{
   padding-top: 20px;
   padding-bottom: 40px;
   color: hsla(0, 0%, 100%, 0.75);
@@ -147,5 +488,12 @@ border-width: 2px;
 h2{
     padding: 20px 30px 20px 5px;
   color:   hsl(0, 0%, 95%);
+    }
 }
+}
+h2{
+    padding: 20px 30px 20px 5px;
+  color:   hsl(0, 0%, 95%);
+    }
 
+}
