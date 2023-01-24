@@ -1,0 +1,8 @@
+columns<-c("c1","c1","c2","c2","c3","c3","c4","c4","c5","c5","c6","c6","c7","c7","c8","c8","c9","c9","c10","c10")
+rows<-c("first","second","first","second","first","second","first","second","first","second","first","second","first","second","first","second","first","second","first","second")
+machine<-c("a","b","b","a","a","b","b","a","a","b","b","a","a","b","b","a","a","b","b","a")
+time<-c(44,20,23,45,28,12,19,33,12,19,20,44,33,21,23,12,23,45,23)
+timing<-data.frame(time=time,columns=columns,rows=rows,machine=machine)
+plot(time~columns+rows+machine,timing)
+g<lm(time~columns+rows+machine,timing)
+anova(g)

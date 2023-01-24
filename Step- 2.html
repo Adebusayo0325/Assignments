@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page 3</title>
+
+    <link rel="stylesheet" href="page 2.css">
+</head>
+<body>
+    <main>
+        <div class="section">
+            <div class="section-1">
+                    <p>
+                    STEP 1
+                </p>
+                <button><a href="Step-1.html">1</a></button>
+
+                <label for="details"> YOUR INFO</label>
+                <p>
+                    STEP 2
+                </p>
+                  <button><a href="Step-3.html">2</a></button>
+                <label for="details">SELECT PLAN </label>
+                <p>
+                    STEP 3
+                </p>
+                  <button><a href="Step-2.html">3</a></button>
+
+                <label for="details">ADD-ONS</label>
+                <p>
+                    STEP 4
+                </p>
+                  <button><a href="Step-4.html">4</a></button>
+                <label for="details">SUMMARY</label>
+            </div>
+
+            <div class="section-2">
+                <h2> Personal info</h2>
+                <p>
+                    Pls provide your Name, E-mail address and Phone number.
+                </p>
+                <div>
+ <button class="service">
+                <div class="pick">
+                   
+                    <input type="checkbox" name="online" checked class="online">
+                    <div class="str">
+                        <p>Online service</p>
+                    <p>Access to multiplayer games</p>
+                    </div>
+                    <p class="dollars">+$1/mo</p>
+                </div>
+                    </button>
+                
+ <button class="service">                 <div class="pick">
+                    <input type="checkbox" name="larger" checked class="online">
+                    <div class="str">
+                        <p>Larger storage</p>
+                  
+                    <p>Extra 1TB of cloud save</p>
+                      </div>
+                    <p class="dollars">+$2/mo</p>
+                </div>
+ </button>
+ <button class="service">
+                     <div class="pick">
+                    <input type="checkbox" name="online"  class="online">
+                    <div class="str">
+                        <p>Customizable profile</p>
+                    <p>Access to multiplayer games</p>
+                    </div>
+                    <p class="dollars">+$2/mo</p>
+                </div>
+ </button>
+ </div>
+                 <p class="back">   <a href="Step-3.html" target="_blank">
+                        Go back </a> </p>
+
+                                <button id="btn"><a href ="Step-4.html" target="_blank">Next Step</a></button>
+v
+
+            </div>
+            </div>
+    </main>
+    <style>
+           *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ /*font-family: [Ubuntu](https://fonts.google.com/specimen/Ubuntu);
+   /*font-weight: 400;*/
+}
+a{
+                text-decoration: none;
+                    background-color:  hsl(213, 96%, 18%);
+color:  hsl(231, 100%, 99%);;
+            }
+body{
+    background-color: darkblue;
+    font-size:  16px;
+    max-width: 100%;
+}
+
+main{
+    background-color: hsl(231, 100%, 99%);
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+    margin: auto;
+ 
+
+}
+.section{
+    width: 100%;
+ 
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: row;
+    margin: auto;
+   padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+.section-1{
+    background-image: url("bg-sidebar-desktop.svg");
+    align-items: center;
+    padding: 30px 120px 160px 50px;
+    text-align: center
+    ;
+    width: 20;
+    padding-left: 10px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    
+}
+label{
+    color:  hsl(0, 0%, 100%) ;
+}
+p{
+   color:  hsl(231, 11%, 63%);
+   padding: 5px;
+
+}
+/*label{
+   color: hsl(0, 0%, 100%);
+}*/
+section-1 button{
+    border-color:  hsl(0, 0%, 100%);
+    border-radius: 75%;
+    width: 22px;
+    border-width: 2px;
+    background-color: hsl(243, 100%, 62%);
+    place-items: center;
+   /* position: absolute;
+    top: 5px;*/
+}
+section-1 button:hover{
+    background-color:  hsl(228, 100%, 84%)
+    ;
+}
+#btn{
+    background-color:  hsl(213, 96%, 18%);
+   /* border-radius: 5px;
+    
+    color: white;
+    padding: 
+    3em;
+
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 145px;*/
+border-width: 2px;
+position: relative;
+right: 0;
+left: 140px;
+bottom: 10px;
+    border-color: black;
+    text-align: center;
+ 
+border-radius: 20px;
+border-color: hsl(0, 0%, 95%);
+
+padding-bottom: 10px;
+
+color: white;
+padding-top: 10px;
+width: 20%;
+text-align: center;
+border-width: 2px;
+}
+#btn:hover{
+    border-color: green;
+}
+.section-2{
+    width: 70%;
+    align-items: center
+    ;
+    place-content: center;
+    padding: 10px 20px 20px 10px;
+    text-align: center;
+    
+}
+.back{
+    position: relative;
+top: 40px;
+   /* left: 30px;*/
+    right: 190px;
+    bottom: 10px;
+    margin-left: 0px;
+    text-decoration: none;
+}
+.back a{
+    text-decoration: none;
+       color:  hsl(231, 11%, 63%);
+}
+
+.back a:hover{
+          color: hsl(213, 96%, 18%);
+
+;
+background-color: hsl(0, 0%, 100%); 
+cursor: pointer;
+}
+.back a:clicked{
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+
+
+
+h2{
+    color: hsl(213, 96%, 18%);
+    padding-left: 0px;
+    padding-right: 190px;
+}
+.columns{
+    width:35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    gap: 10px;
+    border-color: hsl(243, 100%, 62%);
+    border-radius: 2px;
+    border-width: 10px;
+    
+}
+.service{
+/*padding: 5px 20px 20px 5px;*/
+        
+   width: 50%;
+   height:1%;
+   padding-bottom: 2px;
+background-color: hsl(0, 0%, 100%) ;
+ border-color: hsl(228, 63%, 13%);
+      border-width: 
+      2px;     
+      border-radius: 5px; 
+      margin-bottom: 10px;
+      text-align: center;
+      align-items: center;
+}
+.service:hover{
+    background-color:    hsl(228, 100%, 84%)
+    ;
+}
+.online{
+    background: none;
+}
+.online:checked{
+    background-color:    hsl(228, 100%, 84%)
+    ;
+}
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+.pick{
+      width:35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+    gap: 10px;
+    padding-bottom: 20px;
+ 
+}
+.pick:checked{
+    background-color:    hsl(228, 100%, 84%)
+    ;
+
+}
+
+.str{
+       width:35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+
+    padding-bottom: 20px;
+}
+    </style>
+
+</body>
+</html>

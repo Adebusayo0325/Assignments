@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prac1.css">
+</head>
+<body>
+    
+   <main>
+    <div class="section">
+        <div class="section-1">
+            <p>STEP 1</p>
+            <button  id="reg" >1</button>
+           
+        <label for="details"> YOUR INFO</label>
+         <p>STEP 2</p>
+          <button >2</button>
+        <label for="details">SELECT PLAN </label>
+          <p>STEP 3</p>
+          <button >3</button>
+          
+        <label for="details">ADD-ONS</label>
+          <p>STEP 4</p>
+         <button >4</button>
+        <label for="details">SUMMARY</label>
+        </div>
+        <div class="section-2">
+            <h2> Select your plan</h2>
+            <p>You have the option of monthly or yearly billing.</p>
+            <div class="rows">
+                <button class="arcade"> 
+                    <img src="icon-arcade.svg" alt="arcade">
+                    <h3>Arcade</h3>
+                    <p>$9/mo</p>
+                </button>
+                                    <button class="advanced">
+                    <img src="icon-advanced.svg" alt="advanced">
+                    <h3>Advanced</h3>
+                    <p>$12/mo</p>
+                                    </button>
+                                                    <button
+                                                     class="pro">
+                    <img src="icon-pro.svg" alt="pro">
+                    <h3>Pro</h3>
+                    <p>$15/mo</p>
+                                </button>
+                </div>
+                <div class="toggle">
+                <p>Monthly</p>
+                <label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+            <p>Yearly</p>
+                </div>
+           <p class="back"> <a href ="#"> Go back </a> </p>
+
+            <button id="btn">Next Step</button>
+        </div>
+    
+    </div>
+    <div class="hidden">
+            <div class="sections">
+            <div class="section-x">
+                <p>
+                    STEP 1
+                </p>
+                <button>1</button>
+
+                <label for="details"> YOUR INFO</label>
+                <p>
+                    STEP 2
+                </p>
+                <button>2</button>
+                <label for="details">SELECT PLAN </label>
+                <p>
+                    STEP 3
+                </p>
+                <button>3</button>
+
+                <label for="details">ADD-ONS</label>
+                <p>
+                    STEP 4
+                </p>
+                <button>4</button>
+                <label for="details">SUMMARY</label>
+            </div>
+
+            <div class="section-y">
+                <h2> Personal info</h2>
+                <p>
+                    Pls provide your Name, E-mail address and Phone number.
+                </p>
+
+                <form action="">
+
+
+                    <p>
+                        NAME :
+                    </p>
+                    <input type="text" name="fname" maxlength="40" minlength="3" class="name" required placeholder="ENTER YOUR NAME">
+
+
+
+                    <p>
+                        EMAIL :
+                    </p>
+
+                    <input type="text" name="EMAIL" id="EMAIL" placeholder="ENTER EMAIL ADDRESS">
+
+
+
+                    <p>
+                        PHONE NUMBER :
+                    </p>
+                    <input type="number" name="PNUMBER" maxlength="12" minlength="3" id="PNUMBER" pattern="" required placeholder="+234-70-38-430-280">
+
+                    <button id="btn-2">Next Step</button>
+                </div>
+            </div>
+            </div>
+   </main> 
+</body>
+<style>
+    *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ /*font-family: [Ubuntu](https://fonts.google.com/specimen/Ubuntu);
+   /*font-weight: 400;*/
+}
+
+body{
+    background-color: darkblue;
+    font-size:  16px;
+    max-width: 100%;
+}
+
+main{
+    background-color: hsl(231, 100%, 99%);
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+    margin: auto;
+ 
+
+}
+.section{
+    width: 100%;
+ 
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: row;
+    margin: auto;
+   padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+.section-1{
+    background-image: url("bg-sidebar-desktop.svg");
+    align-items: center;
+    padding: 100px px 100px 60px;
+    text-align: center
+    ;
+    padding-left: 10px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    
+}
+label{
+    color:  hsl(0, 0%, 100%) ;
+}
+p{
+   color:  hsl(231, 11%, 63%);
+   padding: 10px;
+
+}
+/*label{
+   color: hsl(0, 0%, 100%);
+}*/
+section-1 button{
+    border-color:  hsl(0, 0%, 100%);
+    border-radius: 75%;
+    width: 22px;
+    border-width: 2px;
+    background-color: hsl(243, 100%, 62%);
+    place-items: center;
+   /* position: absolute;
+    top: 5px;*/
+}
+button:hover{
+    background-color:  hsl(228, 100%, 84%)
+    ;
+}
+#btn{
+    background-color:  hsl(213, 96%, 18%);
+   /* border-radius: 5px;
+    
+    color: white;
+    padding: 
+    3em;
+
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 145px;*/
+border-width: 2px;
+position: relative;
+right: 0;
+left: 140px;
+bottom: 10px;
+    border-color: black;
+    text-align: center;
+ 
+border-radius: 20px;
+border-color: hsl(0, 0%, 95%);
+
+padding-bottom: 10px;
+
+color: white;
+padding-top: 10px;
+width: 20%;
+text-align: center;
+border-width: 2px;
+}
+#btn:hover{
+    border-color: green;
+}
+.section-2{
+    width: 70%;
+    align-items: center
+    ;
+    place-content: center;
+    padding: 10px 20px 20px 10px;
+    text-align: center;
+    
+}
+.back{
+    position: relative;
+top: 40px;
+   /* left: 30px;*/
+    right: 190px;
+    bottom: 10px;
+    margin-left: 0px;
+    text-decoration: none;
+}
+.back a{
+    text-decoration: none;
+       color:  hsl(231, 11%, 63%);
+}
+
+.back a:hover{
+          color: hsl(213, 96%, 18%);
+
+;
+background-color: hsl(0, 0%, 100%); 
+cursor: pointer;
+}
+.back a:clicked{
+    background-color: hsl(0, 0%, 100%);
+}
+.rows{
+      width:35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.arcade{
+ color: hsl(213, 96%, 18%);
+      background-color:  hsl(231, 100%, 99%);
+         padding: 2em;
+    width: 100%;
+ border-color: hsl(228, 63%, 13%);
+      border-width: 
+      2px;     
+      border-radius: 5px; 
+}
+
+.advanced{
+ color: hsl(213, 96%, 18%);
+      background-color:  hsl(231, 100%, 99%);
+         padding: 2em;
+    width: 100%;
+ border-color: hsl(228, 63%, 13%);
+      border-width: 
+      2px;     
+      border-radius: 5px; 
+      
+      
+}
+
+.pro{
+    color: hsl(213, 96%, 18%);
+      background-color:  hsl(231, 100%, 99%);
+         padding: 2em;
+    width: 100%;
+ border-color: hsl(228, 63%, 13%);
+      border-width: 
+      2px;     
+      border-radius: 5px; 
+}
+
+.toggle{
+    background-color: hsl(229, 24%, 87%);
+  padding: px;
+    display: flex;
+/*z-index: 100;*/
+    justify-content: center;
+ width:75%;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.toggle p:nth-child(1) {
+    padding: 2px;
+    position: relative;
+    left: 0px;
+    right: 40px;
+}
+
+h2{
+    color: hsl(213, 96%, 18%);
+    padding-left: 0px;
+    padding-right: 190px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: hsl(213, 96%, 18%);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.hidden{
+     display: none;
+   color: none;
+}
+
+.sections{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: row;
+    margin: auto;
+   padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+.section-x{
+    background-image: url("bg-sidebar-desktop.svg");
+    align-items: center;
+    padding: 100px px 100px 60px;
+    text-align: center
+    ;
+    padding-left: 10px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    width: 25%;
+    
+}
+p{
+   color:  hsl(231, 11%, 63%);
+   padding: 10px 10px 10px 0px;
+  
+
+}
+/*label{
+   color: hsl(0, 0%, 100%);
+}*/
+button{
+    border-color:  hsl(0, 0%, 100%);
+    border-radius: 75%;
+    width: 22px;
+    border-width: 2px;
+    background-color: hsl(243, 100%, 62%);
+    place-items: center;
+   /* position: absolute;
+    top: 5px;*/
+}
+button:hover{
+    background-color:  hsl(228, 100%, 84%)
+    ;
+}
+#btn-2{
+    background-color:  hsl(213, 96%, 18%);
+   
+border-width: 2px;
+position: relative;
+right: 0px;
+left: 210px;/*
+bottom: 5px;*/
+top: 50px;
+    border-color: black;
+    text-align: center;
+ 
+border-radius: 20px;
+border-color: hsl(0, 0%, 95%);
+
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: ;
+color: white;
+padding-top: 10px;
+width: 40%;
+text-align: center;
+border-width: 2px;
+}
+#btn-2:hover{
+    border-color: green;
+}
+.section-y{
+    width: 70%;
+    align-items: center
+    ;
+    place-content: center;
+    padding: 10px 20px 20px 10px;
+   /* text-align: center;*/
+    display: flex;
+    flex-direction: column;
+    
+}
+
+ h2{
+    color: hsl(213, 96%, 18%);
+    padding-left: 0px;
+    padding-right: 190px;
+}
+
+form {
+    padding: 10px 10px 10px 5px;
+margin-bottom: 10px;
+border-radius: 5px;
+
+}
+
+ input{
+    margin-bottom: 20px;
+padding: 10px 10px 10px 5px;
+
+}
+
+
+section-y label{
+    padding: 5px 5px 5px 0px;
+    margin-bottom: 10px;
+}
+
+</style>
+
+<script >alert("working")
+
+//trial
+const DisplayNewPage = document.querySelector("reg");
+const NewPage = document.querySelector("sections");
+const FormerPage = document.querySelector("section");
+
+DisplayNewPage.addEventListener("click", 
+function(event){
+    NewPage = DisplayNewPage.style.display = "none";
+    
+}</script>
+</html>

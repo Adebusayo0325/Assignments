@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="prac1.css">
+</head>
+<body>
+    
+<div class="form-group my-4">
+   <div class="form-check">
+     <input class="form-check-input" type="checkbox" id="privacy">
+     <label class="form-check-label ml-3" for="privacy">
+      Agree privacy
+     </label>
+   </div>
+</div>
+<!--
+<button id="start__button">start</button>
+<main class="hidden">
+  <nav>Navigation</nav>
+  <section>Content</section>
+  <footer>Footer</footer>
+</main>
+-->
+ <style>
+ 
+
+
+
+ 
+.form-check {
+  position: relative;
+}
+
+input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+}
+
+input[type=checkbox]:checked+label::before {
+  content: "";
+  display: block;
+  position: absolute;
+  text-align: center;
+  height: 20px;
+  width: 20px;
+  left: 0;
+  top: 5px;
+  background-color: #FA9E57;
+  font-family: "Montserrat";
+  border-radius: 2px;
+  border: 1px solid rgb(150 150 150 / 30%);
+}
+
+input[type=checkbox]:checked+label::after {
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="white" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>');
+  display: block;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     .hidden {
+  display: none;
+}
+
+main > * {
+  padding: 1rem;
+
+}
+
+nav, footer {
+  background: black;
+  color: #fff;
+}
+
+button{
+    position: relative;
+}
+ </style>
+ 
+ <script >
+ const mainButton = document.getElementById("start__button");
+
+mainButton.addEventListener("click", function(event){
+    this.remove();
+    document.querySelector('main').classList.remove('hidden')
+});
+ </script>
+</body>
+</html>

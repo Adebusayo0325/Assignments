@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zuri java</title>
+</head>
+<body>
+    <main>
+   <div class="m">
+    
+    <h2 class="l">Hi there!</h2>
+    <p>Please click the button below to fill in your details</p>
+
+    <button class="k" onclick="getUserDetails ()
+
+">Fill in </button>
+   </div> 
+<br><br>
+   <div class="p"><button class="o" onclick="displayDetails()">See details </button></div>
+   </main>
+</body>
+<footer class="i">
+    <p>SYNTAXX</p>
+    <p>Copyright&copy 2022; all rights reserved</p>
+</footer>
+<script src="first.js"></script>
+</html>
+
+<style>
+    *{
+        
+        box-sizing: border-box;
+        
+        max-width: 100%;
+        margin: 0;
+    }
+    body{
+        background-color: rgb(28, 158, 119);
+        color: black;
+        min-height: 100vh;
+        max-height: 100vh;
+        
+    }
+        main{
+        width: 100%;
+     margin: auto;
+        padding: 50px;
+    }
+    .m{
+        background-color: white;
+        color: black;
+        padding: 20px;
+        
+        border-radius: 10px;
+        width: 80%;
+    }
+
+    .p{
+         background-color: white;
+        
+        margin: 0 auto;
+        border-radius: 10px;
+        width: 80%;
+
+    }
+    button{
+        cursor: pointer;
+        padding: 7px;
+        font-weight: bolder;
+        border-radius: 7px;
+    }
+    .k{
+    
+       
+       color: white;
+       background-color:  rgb(28, 158, 119) ;
+       
+       width: 60px;
+    }
+
+    .k:hover{
+    
+transition: 0.3s;
+       color: white;
+       background-color:  rgb(28, 158, 119) ;
+       padding: 10px;
+       border-radius: 30px;
+    }
+.o{
+     
+       
+       color: black;
+       background-color:  rgb(157, 54, 153) ;
+       
+       width: 100%;
+}
+
+.o:hover{
+     
+       
+     color: black;
+     background-color:  rgb(157, 54, 153) ;
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+}
+   
+@media screen and (max-width: 1440px) and (min-width:375px){
+    main{
+        width: 50%;
+     margin: 0 auto;
+     background-color: black;   padding: 50px;
+    }
+    .m{
+        background-color: white;
+        color: black;
+        padding: 30px;
+        margin: 0 auto;
+        border-radius: 10px;
+        width: 80%;
+
+
+    }
+
+    .p{
+         background-color: white;
+        
+        margin: 0 auto;
+        border-radius: 10px;
+        width: 80%;
+
+    }
+    button{
+        cursor: pointer;
+        padding: 7px;
+        font-weight: bolder;
+        border-radius: 7px;
+    }
+    .k{
+    
+       
+       color: white;
+       background-color:  rgb(28, 158, 119) ;
+       
+       width: 150px;
+    }
+
+    .k:hover{
+    
+transition: 0.3s;
+       color: white;
+       background-color:  rgb(28, 158, 119) ;
+       padding: 10px;
+       border-radius: 30px;
+    }
+.o{
+     
+       
+       color: black;
+       background-color:  rgb(157, 54, 153) ;
+       
+       width: 100%;
+}
+
+.o:hover{
+     
+       
+     color: black;
+     background-color:  rgb(157, 54, 153) ;
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+footer{
+    position: sticky;
+    bottom: 0;
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+}
+}
+
+@media screen and (max-width:375px) and (min-width:200px){
+    @media screen and (max-width: 1440px) and (min-width:375px){
+    main{
+        width: 50%;
+        padding: 30px;
+    }
+    .m{
+        background-color: white;
+        color: black;
+        padding: 10px;
+        margin: 0 auto;
+        border-radius: 5px;
+        width: 80%;
+
+
+    }
+
+    .p{
+         background-color: white;
+        
+        margin: 0 auto;
+        border-radius: 5px;
+        width: 80%;
+
+    }
+    button{
+        cursor: pointer;
+        padding: 2px;
+        font-weight: bolder;
+        border-radius: 2px;
+    }
+    .k{
+    
+       
+       color: white;
+       background-color:  rgb(28, 158, 119) ;
+       
+       width:50px;
+    }
+
+    .k:hover{
+    
+transition: 0.3s;
+       color: white;
+       background-color:  rgb(28, 158, 119) ;
+       padding: 5px;
+       border-radius: 5px;
+    }
+.o{
+     
+       
+       color: black;
+       background-color:  rgb(157, 54, 153) ;
+       
+       width: 100%;
+}
+
+.o:hover{
+     
+       
+     color: black;
+     background-color:  rgb(157, 54, 153) ;
+    transition: 0.3s;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer{
+    position: sticky;
+    bottom: 0;
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+    padding: 200px;
+    color: red;
+}
+}
+}
+</style>

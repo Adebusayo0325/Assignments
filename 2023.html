@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN IN FORM</title>
+</head>
+<body>
+
+    <div class="box">
+
+        <div class="block">
+            <span class="--i:0;"> </span>
+            <span class="--i:1;"> </span>
+            <span class="--i:2;"> </span>
+            <span class="--i:3;"> </span>
+
+        </div>
+
+        <div class="text">
+            <span class="--i:0;" data-text= "Happy">Happy </span>
+            <span class="--i:1;" data-text= "New">New </span>
+            <span class="--i:2;" class = "data-text">Year </span>
+            <span class="--i:3;" data-text = "2023">2023 </span>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+
+<style>
+@media screen and (max-width:900px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #333;
+    }
+
+    .box {
+        position: relative;
+        height: 200px;
+        transform-style: preserve-3d;
+        animation: animate 16s linear infinite;
+    }
+
+@keyframes animate {
+        0% {
+            transform: rotateX(-20deg) rotateY(360deg);
+        }
+        100% {
+            transform: rotateX(-20deg) rotateY(0deg);
+        }
+    }
+
+    .box div {
+        position: absolute;
+        inset: 0;
+        transform-style: preserve-3d;
+    }
+  .block span {
+        position: absolute;
+        width: 200px;
+        height: 100px;
+        background: #444;
+        left: calc(50% - 100px);
+        transform: rotateY(calc(90deg * var(--i))) translateZ(100px);
+
+        transition: 0.5s;
+    }
+
+    .box:hover div.block span {
+        background: #0f0;
+        filter: dropshadow(0 0 50px #0f0);
+    }
+
+    .box div.text span {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
+        cursor: pointer;
+        color: yellow;
+        font-size: 8em;
+        text-transform: uppercase;
+        z-index: 10;
+        line-height: 1em;
+        -webkit-text-stroke: 3px #000;
+        transform-style: preserve-3d;
+    }
+
+    .box div.text span:nth-child(2) {
+        font-size: 6em;
+    }
+
+    .box div.text span::before {
+        content: attr(data-text);
+        position: absolute;
+        bottom: 7px;
+        transform-origin: bottom;
+        transform: rotateX(-90deg);
+        color: rgba(0,0,0,0.1);
+        -webkit-text-stroke: 0px #000;
+        filter: blur(5px);
+    }
+
+    .box div.text span::after {
+        content: ' ';
+        position: absolute;
+        top: 100px;
+        width: 360px;
+        height: 60px;
+        background: #444;
+        transform: rotateX(-90deg);
+        transition: 0.5s;
+
+    }
+
+    .box:hover div.text span::after {
+
+        background: #0f0;
+        filter: dropshadow(0 0 50px #0f0);
+    }
+    
+}
+
+</style>
+</html>

@@ -1,0 +1,82 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box
+}
+body{
+    background-color: rgba(209, 201, 201, 0.914);
+    
+}
+main{
+    
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin: auto;
+
+}
+.tr{
+    background-color: white;
+    padding: 2em;
+    width: 100%;
+    
+}
+.tr h2{
+    color: rgb(33, 126, 136);
+    font-size: 20px;
+    font-size:bold;
+    padding-bottom: 10px;
+}
+.gm{
+    font-size: 15px;
+    
+    font-size: bold;
+    color: rgb(149, 200, 55);
+    padding-bottom: 10px;
+}
+.imagine{
+    color: white;
+padding-bottom:10px ;
+width: 100%;
+padding-bottom: 10px;
+display: flex;
+
+flex-direction: row;
+
+}
+.imag{
+background-color: rgb(6, 101, 136);
+padding:2em;
+width: 100%;
+
+}
+.imag h2{
+    font-weight:lighter ;
+   
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.imag button{
+ background-color: rgb(175, 216, 27);
+ 
+border-radius: 5px;
+border-color: black;
+padding:60px ;
+padding-bottom: 10px;
+border: none;
+color:white;
+padding-top: 10px;
+width: 70%;
+
+}
+.ine{
+    width: 100%;
+background-color: rgb(130, 213, 243);
+padding:2em;
+padding-bottom: 10px;
+
+
+}

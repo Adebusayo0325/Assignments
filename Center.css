@@ -1,0 +1,104 @@
+l    * {
+
+
+
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+  
+}
+
+body{
+    background-color: beige;
+       display: flex;
+
+   place-items: center;
+
+min-height: 100vh;
+display: grid;
+
+
+
+    grid-template-areas: 
+    'x x x x x'
+    'a a a b b'
+    'a a a b b'
+    
+    'd d d d d'
+   /* 'c c e e e';*/
+   gap: 10px;
+}
+    
+main{
+
+
+
+   display: grid;
+
+    grid-template-areas: 
+    
+    'a a a b b'
+    'a a a b b'
+    
+    'd d d d d'
+   /* 'c c e e e';*/
+   gap: 10px;
+   width: 50%;
+   margin: auto;
+   background-color: hsl(179, 100%, 13%)
+;
+ padding: 15px 50px 20px 20px;
+}
+main div{
+     padding: 2em;
+     text-align: center;
+    
+}
+.et{
+
+   
+
+    color: white;
+    background-color: rgb(29, 183, 99);
+grid-area: a;
+padding: 40px;
+
+}
+.ft{
+  
+    color: white;
+    background-color: rgb(139, 29, 29);
+    grid-area: b;
+    
+}
+.gt{
+    
+    color: white;
+    background-color: rgb(183, 3, 3);
+    grid-area: c;
+}
+.jt{
+   
+    color: white;
+    background-color: rgb(25, 155, 230);
+    grid-area: d;
+}
+.it{
+     
+    color: white;
+    background-color: rgb(192, 204, 24);
+    grid-area: e;
+}
+
+
+header {
+grid-area: x;
+  display: flex;
+
+  flex-direction: row;
+  padding: 2em;
+  width: 80%;
+  background-color: hsl(36, 100%, 99%);
+  margin: auto;
+}

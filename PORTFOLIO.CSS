@@ -1,0 +1,390 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(7, 7, 43);
+  color: orange;
+  max-width: 100%;
+}
+.t h3,h2 {
+  padding: 20px;
+  margin: 0 auto;
+  width: 100%;
+  color: orange
+  ;
+}
+.t {
+  position: absolute;
+  padding: 20px;
+  margin: 0 auto;
+  width: 100%;
+  color: greenyellow;
+}
+#we {
+  width: 80px;
+  height: 60px;
+  color: orange;
+}
+#navbar {
+  background: none;
+  padding: 10px;
+  position: absolute;
+  margin-top: -4rem;
+  font-size: 15px;
+  color: orange;
+}
+.about:hover {
+  color: red;
+}
+.page:hover {
+  color: red;
+}
+.services:hover {
+  color: red;
+}
+.project:hover {
+  color: red;
+}
+.about {
+  margin-left: 12rem;
+}
+.about,
+.page,
+.services,
+.project {
+  margin-right: 2rem;
+  text-decoration: none;
+  border-left: 3px solid whitesmoke;
+  border-right: 3px solid whitesmoke;
+  color: orange;
+
+  /* position: relative;*/
+}
+.s,
+.j,
+.l {
+  position: relative;
+  top: 50px;
+  color: white;
+  background: none;
+  padding: 5px;
+}
+#more {
+  position: relative;
+  top: 50px;
+
+  background: none;
+}
+#active,#goliath {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#fi {
+  /*position: absolute;
+   left:800px ;
+   top:150px;
+   
+   padding-right:100px;*/
+  margin-top: -6rem;
+  float: right;
+  border: none;
+}
+
+.s {
+  margin-top: 14rem; /*
+padding-left:100px ;*/
+}
+main {
+  padding: 0px 100px;
+}
+.r {
+  margin-top: 28rem;
+  padding-bottom: 70px;
+  color: orange;
+}
+
+footer {
+  padding-left: 700px;
+  padding-top: 20px;
+  margin: auto;
+  width: 100%;
+  place-items: center;
+  float: center;
+  background-color: rgb(39, 38, 38);
+
+  background: none;
+  color: orange;
+}
+
+#game {
+  color: orange;
+}
+main h2{
+    margin: 0;
+    position: absolute;
+    padding: 5px;
+    color: white;
+}
+.u{
+    font-size: medium;
+    position: absolute;
+    top: 15rem;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    
+}
+.v{
+    font-size: medium;
+    position: absolute;
+    top: 19rem;
+    padding: 10px;
+    width: 100%;
+
+}
+main h5, i{
+    font-size: medium;
+    position: absolute;
+    top: 24rem;
+    padding: 10px;
+    width: 100%;
+    color: white; font-size: medium;
+    position: absolute;
+    top: 24rem;
+    padding: 10px;
+    width: 100%;
+    color: white;
+}
+.d{
+    
+color: white;
+    font-size: lighter;
+    position: absolute;
+    top: 29rem;
+    padding: 20px;
+    width: 100%;
+}
+.e{
+color: white;
+    font-size: lighter;
+    position: absolute;
+    top: 34rem;
+    padding: 10px;
+    width: 100%;
+}
+#rage{
+    position: absolute;
+    bottom: 5px;
+}
+hr{
+    position: absolute;
+    bottom: 20px;
+}
+ .m{
+     font-size: bold;
+    position: absolute;
+    top:15rem;
+    padding: 10px;
+    width: 100%;
+    color: orange;
+}
+.n{
+    color: white;
+    font-size: lighter;
+    position: absolute;
+    top: 19rem;
+    padding: 10px;
+    width: 70%;
+}
+#o{
+     font-size: bold;
+    position: absolute;
+    top: 24rem;
+    padding: 10px;
+    width: 100%;
+    color: orange; 
+}
+.p{
+    color: white;
+    font-size: lighter;
+    position: absolute;
+    top: 26rem;
+    padding: 0px;
+    width: 70%;
+    margin: 5px;
+
+}
+#q{
+   
+color: orange;
+    font-size: bold;
+    position: absolute;
+    top: 34rem;
+    padding: 10px;
+    width: 100%; 
+}
+.x{
+    color: white;
+    font-size: lighter;
+    position: absolute;
+    top: 37rem;
+    padding: 10px;
+    width: 70%; 
+}
+.y{
+    color: white;
+    font-size: lighter;
+    position: absolute;
+    top: 39rem;
+    padding: 10px;
+    width: 100%; 
+}
+#gad{
+    position: absolute;
+    bottom: 5px;
+    top: 1000px;
+    background-color: grey;
+}
+.k{
+   color: white;
+    font-size: lighter;
+    position: absolute;
+    top: 30rem;
+    padding: 10px;
+    width: 70%;
+}
+#gart{
+  position: absolute;
+    bottom: 5px;
+    top: 1000px;
+    background-color: grey;
+}
+#c{
+  font-size: bold;
+    position: absolute;
+    top: 24rem;
+    padding: 10px;
+    width: 100%;
+    color: orange; 
+}
+.h{
+  color: orange;
+    font-size: bold;
+    position: absolute;
+    top: 27rem;
+    padding: 10px;
+    width: 100%; 
+}
+.w{
+  color: orange;
+  font-size: lighter;
+  position: absolute;
+  top: 17rem;
+  left: 60px;
+  padding: 30px;
+  width: 70%;
+}
+.th{
+  margin: 0;
+  position: absolute;
+  top: 60 rem;
+  width: 70%;
+  left: 150px;
+  padding: 20px;
+}
+.io{
+ 
+  position: absolute;
+  top: 2rem;
+  left: 700px;
+
+}
+.gt{
+  margin: 0;
+  position: absolute;
+  top: 42rem;
+  width: 70%;
+}
+.vh{
+  margin: 0;
+  position: absolute;
+  top: 7rem;
+  width: 70%;
+  color: orange;
+   font-size: bold ;
+}
+.rh{
+  margin: 0;
+  position: absolute;
+  top: 11rem;
+  width: 70%;
+  color: white;
+}
+.ah{
+  margin: 0;
+  position: absolute;
+  top: 24rem;
+  width: 70%;
+  color: orange;
+  font-size: bold ;
+}
+.gh{
+  margin: 0;
+  position: absolute;
+  top: 26rem;
+  width: 70%;
+  color: white;
+}
+.hh{
+  margin: 0;
+  position: absolute;
+  top: 35rem;
+  width: 70%;
+  color: orange;
+   font-size: bold ;
+}
+.ih{
+  margin: 0;
+  position: absolute;
+  top: 39rem;
+  width: 70%;
+  color: white;
+}
+.jh{
+  margin: 0;
+  position: absolute;
+  top: 49rem;
+  width: 70%;
+  color: orange;
+   font-size: bold ;
+}
+.kh{
+  margin: 0;
+  position: absolute;
+  top: 52rem;
+  width: 70%;
+  color: white;
+}
+.yh{
+  margin: 0;
+  position: absolute;
+  top: 59rem;
+  width: 70%;
+  color: orange;
+   font-size: bold ;
+}
+.zh{
+  margin: 0;
+  position: absolute;
+  top: 62rem;
+  width: 70%;
+  color: white;
+}
+#fuel{
+  margin: 0;
+  position: absolute;
+  top: 90rem;
+  bottom: 10rem;
+  width: 70%;
+background-color: grey;
+}

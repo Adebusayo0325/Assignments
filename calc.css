@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: grey;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     place-items: center;
+     height: 100vh;
+}
+
+main{
+    background-color: rgb(17, 12, 12);
+    display: grid;
+    grid-template-areas: 
+    'i i i i'
+    'n n l z'
+    'k k y y'
+    'q r s j'
+    't u v w'
+    'x p m o'
+    ;
+    margin: auto;
+    padding: 60px;
+    width: 50%;
+    gap: 5px;
+}
+#x{
+grid-area: i;
+position: relative;
+padding: 
+
+10px;
+}
+
+#a{
+    padding: 2em;
+    background-color: rgb(164, 59, 59);
+    text-align: center;
+    grid-area: z;
+    color: beige;
+}
+
+#b{
+    padding: 2em;
+    background-color: rgb(31, 158, 201);
+    text-align: center;
+    grid-area: y;
+    color: beige;
+}
+
+#c{
+    padding: 2em;
+    background-color: rgb(15, 176, 82);
+    text-align: center;
+    grid-area: x;
+    color: beige;
+}
+
+
+#d{
+    padding: 2em;
+    background-color: grey;
+    text-align: center;
+    grid-area: w;
+    color: beige;
+}
+
+#e{
+    padding: 2em;
+    background-color: rgb(162, 208, 13);
+    text-align: center;
+    grid-area:v;
+    color: beige;
+}
+
+
+
+#f{
+    padding: 2em;
+    background-color: rgb(189, 25, 112);
+    text-align: center;
+    grid-area: u;
+    color: beige;
+}
+
+
+
+#g{
+    padding: 2em;
+    background-color: rgb(3, 3, 3);
+    text-align: center;
+    grid-area: t;
+    color: beige;
+}
+
+
+
+#h{
+    padding: 2em;
+    background-color: rgb(5, 77, 246);
+    text-align: center;
+    grid-area: s;
+    color: beige;
+}
+
+
+
+#i{
+    padding: 2em;
+    background-color: rgb(107, 37, 199);
+    text-align: center;
+    grid-area: r;
+    color: beige;
+}
+
+
+
+#j{
+    padding: 2em;
+    background-color: rgb(23, 204, 39);
+    text-align: center;
+    grid-area: q;
+    color: beige;
+}
+
+
+#k{
+    padding: 2em;
+    background-color: rgb(202, 140, 15);
+    text-align: center;
+    grid-area: p;
+    color: beige;
+}
+
+
+
+#l{
+    padding: 2em;
+    background-color: rgb(248, 239, 0);
+    text-align: center;
+    grid-area: o;
+    color: beige;
+}
+
+
+#m{
+    padding: 2em;
+    background-color: rgb(4, 80, 195);
+    text-align: center;
+    grid-area: n;
+    color: beige;
+}
+
+
+#n{
+    padding: 2em;
+    background-color: rgb(223, 9, 137);
+    text-align: center;
+    grid-area: m;
+    color: beige;
+}
+
+
+#o{
+    padding: 2em;
+    background-color: rgb(247, 116, 1);
+    text-align: center;
+    grid-area: l;
+    color: beige;
+}
+
+#p{
+    padding: 2em;
+    background-color: rgb(54, 6, 6);
+    text-align: center;
+    grid-area: k;
+    color: beige;
+}
+
+#r{
+    padding: 2em;
+    background-color: rgb(197, 123, 123);
+    text-align: center;
+    grid-area: j;
+    color: beige;
+}

@@ -28,7 +28,9 @@ prevslide.addEventListener("click", function () {
     viewingSlide = maxslide;
   } else {
     viewingSlide--;
+  
   }
+  document.ge
 
   slideshow.forEach((slide, indx) => {
     slide.style.transform = `translateX(${100 * (indx - viewingSlide)}%)`;

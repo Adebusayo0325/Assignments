@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: 100%;
+    max-width: 100%;
+    max-zoom: 100%;
+}
+
+body{
+  /*  background: url("parrot-4651351_1920.jpg") no-repeat center center/cover;
+    background-size: contain;*/
+    width: 100%;
+    backface-visibility: 0.1;
+    height: 100vh;
+    width: 200vw;
+    
+}
+body img{
+    width: 100%;
+    height: 100vh;
+    opacity: 0.5 200;
+    stroke-opacity: black ;
+    stop-opacity: 20px;
+    flood-opacity: black;
+    object-fit: cover;
+    color:linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), 
+                filter: brightness(30%); 
+}
+header img{
+    height: 80px;
+    width: 70px;
+    border: 10px 10px white;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 75%;
+    right: 40%;
+}
+
+header h2{
+    position:absolute ;
+    top: 5%;
+    left: 10%;
+    color: white;
+}
+
+
+.left-side{
+    position: fixed;
+    right: 0%;
+width: 15%;
+
+background-color: gray;
+    display: flex;
+    flex-direction: column;
+    top: 0%;
+    padding: 1em;
+    font-size: 1.3rem;
+    color: white;
+    height: 100vh;
+    text-align: center;
+
+    
+}
+
+.left-side h5{
+               transform: rotateX(267deg) rotateY(20deg);
+
+    transform-style: preserve-3d;
+}
+.left-side i {
+    position: relative;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    padding: 0.5em;
+    font-size: 1.3rem;
+    color: white;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.left-side h5{
+    position: relative;
+    right:0;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    padding: 0.5em;
+    font-size: 1.3rem;
+    color: white;
+    height: 100vh;
+    text-align: center;
+
+    
+}
+
+nav {
+    position: absolute;
+    top: 1.7%;
+    left: 30%;
+    padding: 2em;
+    right: 0;
+    display: flex;
+    
+    flex-direction: row;
+}
+nav a{
+    padding: 2em;
+    margin: 0 10px 0 10px;
+    font-size: 1.3em;
+    text-decoration: none;
+    text-decoration-color: white;
+        color: white;
+         
+        
+}
+
+.side-nav{
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    top: 0%;
+    padding: 1em;
+    font-size: 1.3rem;
+    color: white;
+    height: 100vh;
+    text-align: center;
+}
+
+.side-nav span{
+ position: relative;
+    padding: 1em;
+    font-size: 1.3rem;
+    color: white;
+    top: 30%;
+    text-align: center;
+ left: 0%;
+ font-weight: bold;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 2em;
+    justify-content: left;
+    align-items: left;
+    color: white;
+    backface-visibility: 100%;
+}
+
+main h1{
+    position: absolute;
+    top: 33%;
+    left: 15%;
+}
+
+main h4{
+    position: absolute;
+    top: 35%;
+    left: 12%;
+    margin-top: 5px;
+    margin-bottom:10px;
+    padding: 2em;
+}
+
+main p{
+    position: absolute;
+    top: 37%;
+    left: 12%;
+    margin-top: 5px;
+    margin-bottom:10px;
+    padding: 2em;
+}
+
+.parrot button{
+        position: absolute;
+    top: 50%;
+    left: 15%;
+    margin-top: 5px;
+    margin-bottom:10px;
+    padding: 1em;
+    border-radius: 10px;
+    border-width: 2px;
+    font-size: 18px;
+    background-color: orange;
+    color: white;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 2em;
+}
