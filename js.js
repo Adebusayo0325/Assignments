@@ -13,13 +13,13 @@ const taskContainer = document.querySelector(".container");
             New.appendChild(li);
 
             let CheckButton = document.createElement("button");
-            CheckButton.innerHtml  = '<i class = "fa-solid  fa-check></i>';
+            CheckButton.innerHtml  = '<i class = "fas fa-check></i>';
             CheckButton.classList.add("checkTask");
 
             New.appendChild(CheckButton);
 
             let deleteButton = document.createElement("button");
-            deleteButton.innerHtml = '<i class = "fa-solid  fa-trash-can></i>';
+            deleteButton.innerHtml = '<i class = "fas  fa-trash-can></i>';
             deleteButton.classList.add("deleteTask");
 
             New.appendChild(deleteButton);
